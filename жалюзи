@@ -1,0 +1,16 @@
+import tkinter as tk 
+from tkinter import ttk
+
+def ***():
+
+
+
+materials = ('Пластик', 'Аллюминий', 'Соломка', 'Текстиль')
+
+win = tk.Tk()
+win.geometry(f*'')
+win.title('Жалюзи')
+combo = ttk.Combobox(win, values = materials)
+ttk.Button(win, text='Ok', comand = ***).pack()
+
+combo.pack()
