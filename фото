@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import NW
 from tkinter import *
+import re
 
 def is_valid(newval):
     return re.match("^\d{0,5}$", newval) is not None
